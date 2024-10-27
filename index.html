@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Entry</title>
+  <link rel="stylesheet" href="styte.css">
+</head>
+<body>
+
+  <div class="password-container">
+    <h2>Enter your password</h2>
+    
+    <div class="user-info">
+      <img src="mal.jpg" alt="User Profile Picture" class="profile-pic">
+      <div>
+        <p class="account-type">Business Account</p>
+        <p class="user-name">Sarah Bills</p>
+      </div>
+    </div>
+    
+    <form>
+      <label for="password">Password</label>
+      <div class="password-field">
+        <span class="lock-icon">🔒</span>
+        <input type="password" id="password" placeholder="**********" required>
+        <span class="toggle-password">👁️</span>
+      </div>
+      
+      <div class="stay-signed-in">
+        <input type="checkbox" id="stay-signed-in">
+        <label for="stay-signed-in">Stay signed in</label>
+      </div>
+      
+      <button type="submit" class="continue-button">Continue</button>
+    </form>
+    
+    <a href="#" class="reset-password">Reset password</a>
+  </div>
+
+</body>
+</html>
